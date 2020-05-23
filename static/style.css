@@ -36,5 +36,7 @@ h3  {font-family: monospace;
 }
 
 img {
-    width: 50%
+    width: 50%;
+    border-style: solid;
+    border-color: #663A82;
 }
