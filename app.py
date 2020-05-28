@@ -71,6 +71,10 @@ def moreRecipes():
 def usefulLinks():
     return render_template('useful-links.html')
 
+@app.route('/dinosaurs')
+def dinosaurs():
+    return render_template('dinosaurs.html')
+
 if __name__ == '__main__':
     startScroll()
     app.run(debug=False, host='0.0.0.0', port=int('80'))
